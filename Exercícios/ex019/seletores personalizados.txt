@@ -1,0 +1,28 @@
+para identificar com o html eu posso colcoar assim
+<h1 id="principal">
+
+na CSS
+
+eu identifico dessa forma
+h1#principal {
+    
+}
+
+dentro do HTML só se pode ter um id pra um unico elemento. Funciona, mas está errado.
+
+pra indentificar como classe em html eu uso o
+<h1 class="classe">
+
+no css uso
+h1.classe {
+}
+
+POSSO TAMBEM DEIXAR UM ELEMENTO DO TEXTO USANDO A TAG
+<span class="classe">fragmento do texto</span>
+
+TAMBEM POSSO DEIXAR UM ELEMENTO EM MAIS DE UMA CLASSE
+<h2 class="classe1 classe2"
+
+nao precisa ser separado por virgulas
+
+TAMBEM DA PARA BOTAR ID E CLASS EM UM MESMO ELEMENTO, POREM AS CONFIGURAÇÕES DA ID SOBREPOEM A DA CLASS

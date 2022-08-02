@@ -1,0 +1,27 @@
+background-color:  white;
+
+define a cor do fundo
+
+border-radius: 7px;
+arredonda a borda
+
+box-shadow: 5px 5px 5px #023535;
+sombra de caixa
+
+width: 600px;
+largura
+
+padding: 10px;
+afastamento da borda
+
+margin: auto;
+alinha no centro, independente de redimensionar a janela
+
+color: #023535;
+define uma cor
+
+text-align: center;
+alinha o texto ao centro
+
+text-shadow: 2px 2px 2px #022e2e69;
+põe sombra no texto

@@ -1,0 +1,6 @@
+Sempre adiconar a regra
+
+@charset "UTF-8"
+
+na css, para evitar problemas de compatibilidae com a linguagem
+

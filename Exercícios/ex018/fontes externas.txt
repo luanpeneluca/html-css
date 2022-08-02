@@ -1,0 +1,4 @@
+Para usar uma fonte externa, usar o 
+@font-face {
+font-family: 'nome da fonte';
+src: url(fonts/nomedafonte.tipo);

@@ -1,0 +1,24 @@
+tag picture = serve para usar a tag img dentro
+faz com que a imagem possa ser dinamica
+
+source media="(max-width: XXXXpx)" serve para determinar que se a largura maxima for determinados pixels, ele vai carregar a foto que for determinada com relativos tamanhos.
+
+a base deve sempre ser a tag img, acima dela as sources que vão dinamizar o tamanho da imagem. Os sources também devem ser do menor para o maior.
+
+para adicionar um áudio ao site podemos usar a tag audio
+com os parâmetros controls autoplay
+que assim haverá um botão autorizando a pausa e começo do áudio.
+
+<p>Vamos aprender a reproduzir áudios em HML5.</p>
+    <!-- UMA DAS FORMAS DE ADICIONAR AUDIO-->
+    <audio src="midia/caraio nos pasa.mp3" controls autoplay></audio>
+    <!-- formatos compatíveis MP3 WAV OGG-->
+
+
+
+OUTRA FORMA DE SE FAZER
+
+
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/caraio nos pasa.mp3" type="audio/mpeg">
+    </audio>

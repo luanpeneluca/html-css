@@ -1,0 +1,4 @@
+<br> = break row = linha de quebra
+
+&lt; = <
+&gt; = >

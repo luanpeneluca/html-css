@@ -1,0 +1,6 @@
+<strong>texto</strong> = Deixa texto em negrito
+<em>texto</em> = Deixa texto em itálico
+<mark>texto</mark> = deixa o texto marcado
+<small></small> = deixa o texto pequeno
+tag sup = texto sobrescrito (tipo ²)
+tag sub = texto subescrito

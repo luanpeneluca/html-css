@@ -1,0 +1,13 @@
+para criar sombras em caixas usa-se
+
+box-shadow: 1px 1px 1px black
+
+sendo: altura, largura, espalhamento e cor
+
+caso queira fazer sombra interna, basta fazer 
+
+box-shadow: inset 1px 1px 1px black
+
+=========================================================
+
+usando o border radius em 50% ele fica em círculo

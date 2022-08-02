@@ -1,0 +1,15 @@
+tag OL = Lista ordenada
+tag li = item da lista
+
+ol type = tipo da lista
+
+ol type="1" start="4" = determina em qual numero a lista começa
+
+tag ul = lista desordenada
+
+ul type="circle/disc/square" = tipos da ult, pode ser esses 3
+
+tag dl = lista de difinição
+dt = termo
+dd = decsrição
+

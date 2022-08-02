@@ -1,0 +1,86 @@
+No HTML as caixas podem estar dentro de outra. Isto chama-se aninhamento. 
+
+A caixa de conteúdo é definida pela altura e largura.
+altura = height
+largura = width
+
+Em volta da caixa também há uma linha, chamasse borda.
+borda = border
+
+A distância do conteúdo para a borda se chama padding.
+acolchoamento = padding
+
+O espaço externo da borda similiar ao padding é a margem.
+margem = margin
+
+Outline é a linha que circunda a borda de forma bem justinha.
+= outline
+
+Existem dois tipos de Caixa:
+
+box-level e inline-level
+
+a largura do boxlevel é sempre 100% da largura da viewport. E representa uma quebra de linha entre os elementos.
+
+ELEMENTO
+BOXLEVEL
+ELEMENTO
+
+Exemplos: 
+<div>
+<h1>-<h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<asider>
+<footer>
+<form>
+<video>
+
+
+Já o inlinelevel ocupa somente o espaço do seu conteúdo, podendo ficar da seguinte forma.
+
+ELEMENTO - INLINELEVEL - ELEMENTO
+
+Exemplos:
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup>-<sub>
+<label>
+<button>
+<input>
+<select>
+
+=========================================================
+User agent vai ser sempre as configurações do navegador
+
+border-width = largura da borda 
+border-style = estilo da borda
+border-color = cor da borda
+
+O PADDING GIRA SEMPRE NO SENTIDO HORARIO
+
+padding-top = acolchoamento de cima
+padding-right = acolchoamento da direita
+padding-bottom = acolchoamento de baixo
+padding-left = acolchoamento da esquerda
+
+
+=========================================================
+Também existe uma medida chamada margem
+
+margin-top: ; = margem de cima
+margin-right: ; = margem da direita
+margin-bottom: ; = margem de baixo
+margin-left: ; = margem da esquerda
+
+CENTRALIZAR A CAIXA
+margin:auto ;
+
+=========================================================

@@ -1,0 +1,23 @@
+para fazer gradiente de background usamos o stylee
+
+background-image: linear-gradient();
+
+primeiro vem o tipo do degrade, e entre parenteses vem a direção e as cores que vão ser usadas. Por exemplo:
+
+
+background-image: linear-gradient(to right, white, blue);
+
+tambem posso usar como angulo
+
+background-image: linear-gradient(90deg, white, blue);
+
+configuração global das CSS fica entre
+
+* {
+	posso definir altura de 100% para o degrade nao ficar zebrado
+	height: 100%
+}
+
+para fixar o degrade no fundo usa-se o comando
+
+background-attachment: fixed;

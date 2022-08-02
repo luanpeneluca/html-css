@@ -1,0 +1,38 @@
+Letra X minúscula é o ponto de partida para construção da fonte. A sua altura define a altura máxima de todas as outras letras.
+
+altura das maiúsculas é definida pelo A e Q maiúsculos.
+
+NEM TODAS AS FONTES TEM TODOS OS COMPONENTES
+
+SERIFA - pequeno prolongamento no final de algumas letras da fonte. Que facilita a leitura das palavras. 
+
+fontes sem serifa são sans-serif
+recomendado em textos muito longos em tela, preferência a fontes não serifadas.
+
+
+CSS WEB FONT COMBINATIONS
+
+para achar fontes que sejam compativeis com a maioria dos dispositivos
+
+
+GERALMENTE SE USA 16 PIXELS POR PADRÃO
+
+
+peso : determina se a fonte é mais magrinha ou gordinha
+(negrito, light, etc)
+
+font-weight: ;
+
+estilo: pode ser negrito, italico, etc
+font-style: ;
+
+decoração: underline e etc.
+text-decoration: ;
+
+SHORT HAND
+font style > font wheight > font size > font family
+            ESSA ORDEM É MUITO IMPORTANTE!!!
+
+EM CSS TUDO QUE É @ DEVE ESTAR LOGO ABAIXO DA TAG STYLE E DEVE ESTAR FORA DE UM SELETOR {}
+
+GERALMENTE UM SITE TEM 3 OU 4 FONTES

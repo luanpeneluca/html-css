@@ -1,0 +1,6 @@
+text-align: ;
+
+ajusta a fonte
+
+text-indent: ;
+define a distância entre a primeira palavra ate e a margem.

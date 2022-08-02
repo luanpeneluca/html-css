@@ -1,0 +1,14 @@
+TAGS SEMANTICAS
+
+Todo site tem um cabeçalho, conteudo principal e rodape
+
+cabeçalho = header
+principal = main
+rodape = footer
+
+nav = menu
+section = sessao
+article = artigo
+aside = autor
+
+Todos eles sao divs, mas sao semanticas

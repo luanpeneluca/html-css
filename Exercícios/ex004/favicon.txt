@@ -1,0 +1,7 @@
+icon archive = achar icones 
+
+favicon.cc = pode desenhar icones
+
+favicon.io = gerador de icones texto/imagens
+
+recomendado que o arquivo do favicon seja renomeado favicon.ico

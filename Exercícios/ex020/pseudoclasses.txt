@@ -1,0 +1,36 @@
+<div></div>
+cria uma divisão na tela
+
+height = altura
+width = largura
+
+: em CSS é uma pseudoclasse, estão relacionadas ao estado de um elemento, exemplo:
+div:hover {
+}
+
+ESSA CLASSE EXECUTA FUNÇÕES QUANDO O MOUSE ESTÁ EM CIMA DE SEUS ELEMENTOS
+
+:visited {
+}
+atribui funções para caso o link ja tenha sido visitado
+
+:active{
+}
+atribui funções enquanto o elemento é clicado
+
+PSEUDOELEMENTOS APARECEM DEPOIS DE ::
+
+::after {
+}
+atribui funções ao elemento no final dele
+
+
+::before {
+}
+atribui funções ao elemento no início dele
+
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-element
+> = children

@@ -1,0 +1,10 @@
+tag code = serve para deixar a fonte mono espaçada
+tag pre = serve para identar o código
+tag q = põe entre aspas
+tag blockquote = cria uma citação maior, uma citação de bloco
+
+dentro de block quote, podemos utilizar <blockquote  cite"url">, visualmente não acontecerá nada, mas a citação fará alusão aquela URL para os mecanismos de busca.
+
+tag abbr = serve para marcar de abreviação
+
+tag bdo = serve para mostrar o texto invertido.

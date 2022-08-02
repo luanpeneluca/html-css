@@ -1,0 +1,17 @@
+HandBrake = ferramenta gratuita de conversão
+
+vídeos com qualidade acima de 1080p, evitar hospedagem local.
+
+a tag controls serve para mostrar os botões de play, pause e volume do vídeo
+
+a tag loop serve para repetir a mídia assim que ela terminar.
+
+tbm posso alterar o height (altura) e o width(largura) conforme a página.
+
+a tag poster serve para criar uma thumbnail para o video
+
+<video height="700" poster="midia/thumb.jpg" controls>
+        <source src="midia/meuvideo.mp4" type="video/mp4">
+    </video>
+
+interessantes colocar sources de formatos diferentes para aumentar a chance de compatibilidade com o usuário.

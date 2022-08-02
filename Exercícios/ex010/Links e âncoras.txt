@@ -1,0 +1,14 @@
+tag a = cria uma âncora
+
+dentro da tag a, após a url entre aspas, posso botar o comando
+target="_blank" = para indicar que ela deve ser aberta em uma nova guia
+e a tag rel="external" = para indicar que é um link externo
+
+em links externos o rel não pode ser internal, ent temos:
+
+rel="next" = para proxima pagina
+rel="prev" = para pagina anterior
+
+sempre que fizer um link patrocinado é bom botar um:
+
+rel="nofollow" = o mecanismo de busca não associará os links
