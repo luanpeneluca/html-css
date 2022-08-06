@@ -1,0 +1,27 @@
+Para adicionar uma imagem no fundo do site, usamos
+background-image: url('caminho da imagem');
+
+para definir o tamanho da imagem usamos:
+background-size: px px;
+
+Por padrão as imagens vão se repetir.
+background-repeat: repeat;
+
+mas também podemos controlar essa repetição
+
+background-repeat: no-repeat;
+ela para de repetir
+
+background-repeat: repeat-x;
+ela só repetirá horizontalmente
+
+background-repeat: repeat-y;
+ela só repetirá verticalmente
+
+Por padrão a imagem sempre partirá do canto superior esquerdo, mas também há como mudar isto.
+
+Também há como mudar o posicionamento da imagem utilizando o: 
+background-position: ;
+
+há como intercalá-lo usando, right, left, top, bottom, center.
+
