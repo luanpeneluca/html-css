@@ -32,3 +32,13 @@ que vai preferir por mostrar 100% da imagem
 
 background-size: cover;
 vai mostrar a imagem toda, mesmo que seja necessário cortá-la um pouco.
+
+Também existe o vínculo:
+background-attachment: ;
+
+pode ser fixed ou scroll
+
+fixed vai deixar a imagem fixa no fundo, independente da rolagem. Scroll vai acompanhar a rolagem do site.
+
+Shorthand para background:
+color > image > position > repeat > [size] > attachment
