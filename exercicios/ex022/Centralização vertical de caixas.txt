@@ -1,0 +1,25 @@
+o id container deve ter a posição relativa
+o conteudo deve ter a posição absoluta
+
+Ao definir a posição como absoluta podemos usar os atributos top, left, bottom right.
+
+para defini-la ao centro da caixa usamos os parâmetros
+
+top: 50%;
+left: 50%;
+
+por padrão o ponto de partida da imagem é o ponto superior esquerdo, então ela não fica de fato centralizada.
+podemos usar então o parâmetro que vai mover a imagem de acordo com nossa preferência, para centralizá-la, utilizaremos: 
+transform: translate(-50%, -50%);
+
+=========================================================COMENTÁRIO DO YOUTUBE
+
+Existe um jeito muito mais fácil de alinhar items, com apenas três linhas, e eu não tô falando isso em tom de crítica, pelo contrário, é sempre bom saber mais de um modo de resolver um problema. Então lá vai:
+
+#container {
+    display: flex; /*Possui diversas funções (procurem pela documentação), uma delas é habilitar o manejamento do conteúdo*/
+    justify-content: center; /*Alinhamento horizontal, ou seja, dispensa o "margin: auto"*/
+    align-items: center; /*Alinhamento vertical*/
+}
+
+=========================================================
