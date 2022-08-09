@@ -15,7 +15,9 @@
     padding: 0px;
 }
 
-
+body {
+    
+}
 
 header {
     background-color: black;
@@ -54,7 +56,11 @@ section.normal > p {
 }
 
 section.foto {
-    background-image: url(imagens/background001.jpg);
+    background-color: black ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 section.foto > p {
@@ -62,5 +68,28 @@ section.foto > p {
     color: white;
     background-color: rgba(0, 0, 0, 0.692);
     font-size: 4em;
-    padding: 30px;
+    width: 745px;
+    margin-left: 15px;
+    padding: 30px 15px;
+}
+
+#foto01 {
+    background-image: url(imagens/background001.jpg); 
+}
+
+#foto02 {
+    background-image: url(imagens/background002.jpg);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+
+    color: white;
+    background-color: black;
+    font-family: var(--fonte1);
+    font-size: 1em;
 }
