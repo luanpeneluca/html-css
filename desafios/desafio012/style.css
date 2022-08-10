@@ -28,10 +28,11 @@ header {
 header > h1 {
     font-family: var(--fonte2);
     color: white;
-    font-size: 10em;
+    font-size: 9vw;
 }
 
 header > p {
+    font-size: 2.5vw;
     font-family: var(--fonte1);
     color: white;
 }
@@ -46,7 +47,7 @@ header > p > strong > a:hover {
 }
 
 section {
-    padding: 10vh 0;
+    padding: 5vh 0;
 }
 
 section.normal {
@@ -56,7 +57,7 @@ section.normal {
 
 section.normal > p {
     font-family: var(--fonte3);
-    font-size: 4em;
+    font-size: 5vw;
 }
 
 section.foto {
@@ -71,10 +72,10 @@ section.foto > p {
     font-family: var(--fonte3);
     color: white;
     background-color: rgba(0, 0, 0, 0.692);
-    font-size: 4em;
-    width: 745px;
+    font-size: 5vw;
+    display: inline-block;
     margin-left: 15px;
-    padding: 30px 15px;
+    padding: 15px;
 }
 
 #foto01 {
@@ -97,7 +98,7 @@ footer {
     color: white;
     background-color: black;
     font-family: var(--fonte1);
-    font-size: 1em;
+    font-size: 2.5vw;
 }
 
 footer > p > a {
@@ -109,7 +110,7 @@ footer > p > a:hover {
     text-decoration: underline;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+/* @media (min-width: 320px) and (max-width: 767px) {
 
     header > h1 {
         font-size: 4em;
@@ -155,4 +156,4 @@ footer > p > a:hover {
     footer {
         font-size: 0.9em;
     }
-}
+} */
