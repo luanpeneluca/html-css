@@ -16,7 +16,7 @@
 }
 
 body {
-    
+    display: block;
 }
 
 header {
@@ -92,4 +92,53 @@ footer {
     background-color: black;
     font-family: var(--fonte1);
     font-size: 1em;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+
+    header > h1 {
+        font-size: 4em;
+    }
+
+    section.normal > p {
+        font-size: 1.5em;
+    }
+
+    section.foto > p {
+        font-size: 1.5em;
+        width: 285px;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
+
+/*@media (min-width: 768px) and (max-width: 1050px) {
+
+    header > h1 {
+        font-size: 6em;
+    }
+
+    section.normal > p {
+        font-size: 3em;
+    }
+
+    section.foto > p {
+        font-size: 3em;
+        width: 745px;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
 }
