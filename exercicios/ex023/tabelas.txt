@@ -1,0 +1,16 @@
+Não se pode usar tabela para criar a estrutura do site.
+
+para criar uma tabela, utiliza-se a tag <table>
+
+todas as tabelas em html tem a seguinte hierarquia:
+TABLE = Tabela
+TABLE ROW = Linha de tabela
+TABLE HEADER = cabeçalho de tabela
+TABLE DATA = dado de tabela
+
+
+border-collapse: separate; 
+Deixa as bordas da tabela separadas.
+
+border-collapse: collapse;
+Deixa as bordas da tabela juntas.
