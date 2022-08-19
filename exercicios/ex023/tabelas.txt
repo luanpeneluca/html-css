@@ -14,3 +14,12 @@ Deixa as bordas da tabela separadas.
 
 border-collapse: collapse;
 Deixa as bordas da tabela juntas.
+
+=========================================================ALINHAMENTO
+
+para alinhar horizontalmente a tabela, utilizamos
+text-align: left/center/right;
+
+para alinhar verticalmente
+vertical-align: top/middle/bottom;
+
